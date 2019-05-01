@@ -11,7 +11,7 @@
 <body>
 	<div id="fejlec">
 			<div id="logo">
-				<img src="./images/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>">
+				<a href="https://webprog-nebulo-alapitvany.000webhostapp.com/"><img src="./images/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>"></a>
 			</div>
 		    <div id="kereso">					
                 <script>
