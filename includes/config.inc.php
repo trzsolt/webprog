@@ -17,6 +17,7 @@ $lablec = array(
 $oldalak = array(
 	'/' => array('fajl' => 'fooldal', 'szoveg' => 'Főoldal', 'menun' => array(1,1)),
 	'rolunk' => array('fajl' => 'rolunk', 'szoveg' => 'Rólunk', 'menun' => array(1,1)),
+	'olympia19' => array('fajl' => 'olympia19', 'szoveg' => 'Olympia', 'menun' => array(1,1)),
 	'galeria' => array('fajl' => 'galeria', 'szoveg' => 'Galéria', 'menun' => array(1,1)),
     'videotar' => array('fajl' => 'videotar', 'szoveg' => 'Videótár', 'menun' => array(1,1)),
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menun' => array(1,1)),
