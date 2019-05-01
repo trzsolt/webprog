@@ -6,7 +6,11 @@
 	<meta charset="utf-8">
 	<title><?= $ablakcim['cim'] . ( (isset($ablakcim['mottó'])) ? ('|' . $ablakcim['mottó']) : '' ) ?></title>
 	<link rel="stylesheet" href="./styles/stilus.css" type="text/css">
-	<?php if(file_exists('./styles/'.$keres['fajl'].'.css')) { ?><link rel="stylesheet" href="./styles/<?= $keres['fajl']?>.css" type="text/css"><?php } ?>
+    <link rel="stylesheet" type="text/css" href="images/galeria/resources/UberGallery.css" />
+    <link rel="stylesheet" type="text/css" href="images/galeria/resources/colorbox/1/colorbox.css" />
+    <script type="text/javascript" src="://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="images/galeria/resources/colorbox/jquery.colorbox.js"></script>
+	<?php if(file_exists('./styles/'.$keres['fajl'].'.css')) { ?><link rel="stylesheet" href="./styles/<?= $keres['fajl']?>.css" type="text/css"><?php } ?>     
 </head>
 <body>
 	<div id="fejlec">
