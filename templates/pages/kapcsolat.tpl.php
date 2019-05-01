@@ -1,6 +1,6 @@
 <?php
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
-//		include("config.php");
+		include("logicals/db.php");
 		$email=$_REQUEST['s_email'];
 		$szoveg=$_REQUEST['s_szoveg'];
 		$sql = "INSERT INTO emails (email, szoveg) VALUES ('$email', '$szoveg')";
