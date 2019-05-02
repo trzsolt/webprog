@@ -3,6 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+    <meta name="google-site-verification" content="7dul8QobtHS9Zuf_uc0SITKQPfdNbWpyh201Mgt3Hf4" />
 	<title><?= $ablakcim['cim'] . ( (isset($ablakcim['mottó'])) ? ('|' . $ablakcim['mottó']) : '' ) ?></title>
 	<link rel="stylesheet" href="./styles/stilus.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="images/galeria/resources/UberGallery.css" />
